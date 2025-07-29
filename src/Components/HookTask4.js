@@ -5,12 +5,13 @@ function HookTask4() {
     function textchange(e){
             setText(e.target.value)
     }
-    function delText(){
-    }
+    // function delText(){
+    //   setText('')
+    // }
   return (
     <div>
-      <input type='text' onChange={textchange}></input>
-      <button >Clear</button>
+      <input type='text' onChange={textchange} value={text}></input>
+      <button onClick={textchange}>Clear</button>
     </div>
   )
 }

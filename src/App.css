@@ -9,3 +9,13 @@
 .app{
     height: 50px;
 }
+
+.yellogreen{
+background-color: yellowgreen;
+height: 200px;
+
+}
+.white{
+    background-color: aliceblue;
+    height: 200px;
+}
