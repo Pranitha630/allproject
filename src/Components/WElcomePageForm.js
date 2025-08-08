@@ -11,6 +11,7 @@ function WElcomePageForm() {
 
     <div>
       <h1>welcome</h1>
+      {uname}
     </div>
   )
 }
